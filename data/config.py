@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent  # Корневая папка
 TEXT_FOR_CONGRATULATIONS = env.str(
     'TEXT_FOR_CONGRATULATIONS'
 )  # Текст, который выводится после команды /congratulations
-START_TEXT = env.str('START_TEXT')  # Текст, который выводится после команды /start
+# START_TEXT = env.str('START_TEXT')  # Текст, который выводится после команды /start
 
 DEBUG = env.int('DEBUG')
 
