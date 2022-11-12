@@ -1,0 +1,5 @@
+data/photos/*
+data/videos/*
+venv/
+.idea/
+.DS_Store
