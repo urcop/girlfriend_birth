@@ -60,7 +60,7 @@ async def place2(message: types.Message, state: FSMContext):
         data['place2'] = message.text
         if check(data['place2'], PLACE2_ANSWER):
             await message.answer(text=answers('good'))
-            await message.answer('Сюда - <code>43.401728, 39.979220</code>')
+            await message.answer('Сюда - <code>43.400788, 39.980947</code>')
             await sleep(3)
             await message.answer('че там написано?')
             await Quest.next()
